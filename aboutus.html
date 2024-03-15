@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Cooking Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        /* Custom CSS styles */
+        .about-section {
+            padding: 3rem 0;
+        }
+        .about-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .about-section p {
+            font-size: 1.25rem;
+            margin-bottom: 1.25rem;
+            line-height: 1.6;
+        }
+        .about-section img {
+            width: 100%;
+            border-radius: 0.5rem;
+        }
+        .carousel-caption {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+        </ol>
+    </nav>
+  
+    <!-- About Section -->
+    <div class="container about-section">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/jalebi.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Delicious Recipes</h5>
+                        <p>Explore mouthwatering recipes from around the world!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/burger.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Join Us Today</h5>
+                        <p>Join our community and start sharing your favorite recipes!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/cuisine.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Culinary Adventure</h5>
+                        <p>Embark on a culinary adventure with Cooks Corner!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h1>About Us</h1>
+                <p>Welcome to Cooks Corner, your ultimate destination for mouthwatering recipes from around the world! Our passion for cooking and sharing delicious dishes has inspired us to create this platform where food enthusiasts like you can explore, create, and share culinary delights.</p>
+                <p>At Cooks Corner, we believe that cooking is an art form that brings people together and nourishes both body and soul. Whether you're a seasoned chef or a beginner in the kitchen, our goal is to empower you to unleash your creativity and embark on a culinary adventure.</p>
+                <p>From traditional family recipes to innovative fusion cuisine, our collection of recipes spans a wide range of cuisines, flavors, and dietary preferences. Whether you're craving comforting classics, exotic flavors, or healthy alternatives, you'll find something to tantalize your taste buds here.</p>
+                <p>Join us on this gastronomic journey as we explore the world of food, share culinary tips and tricks, and celebrate the joy of cooking. Let's cook, share, and savor the flavors of life together!</p>
+            </div>
+            <div class="col-md-6">
+                <img src="/img/learn.jpeg" class="img-fluid" alt="About Us Image" style="max-width: 600px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div style="background-color: rgb(41, 38, 38); color: white; padding: 1.5rem; border-radius: 0.5rem;">
+                        <h5 style="font-size: 1.5rem; margin-bottom: 1rem; font-family: 'Rubik', sans-serif;">Contact Us</h5>
+                        <ul style="list-style: none; padding: 0; margin-left: 0;">
+                            <li style="font-size: 1.125rem; margin-bottom: 0.5rem;"><i class="bi bi-envelope-fill" style="font-size: 1.25rem; margin-right: 0.5rem;"></i> Email: cookscorner@gmail.com</li>
+                            <li style="font-size: 1.125rem; margin-bottom: 0.5rem;"><i class="bi bi-phone-fill" style="font-size: 1.25rem; margin-right: 0.5rem;"></i> Phone: 9876543211</li>
+                            <li style="font-size: 1.125rem; margin-bottom: 0.5rem;"><i class="bi bi-geo-alt-fill" style="font-size: 1.25rem; margin-right: 0.5rem;"></i> Address: Somewhere on Earth</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
