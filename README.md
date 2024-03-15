@@ -78,5 +78,3 @@ after running the above command go to package.json and include this in scripts
 npm start
 ```
 
-[Reference](https://youtu.be/OEdPH4fV7vY?si=foiS2itWXeIdJLb8)
-
